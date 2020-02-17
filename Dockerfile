@@ -26,13 +26,13 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/v0.6.1/dockerize
     && tar -C /usr/local/bin -xzvf dockerize-linux-amd64-v0.6.1.tar.gz \
     && rm dockerize-linux-amd64-v0.6.1.tar.gz
 
-# PHP 7.3
+# PHP 7.4
 RUN add-apt-repository -y ppa:ondrej/php && apt-get update \
     && apt-get install -y libpq-dev libpng-dev php-pear \
-    php7.3-dev php7.3-fpm php7.3-cli php7.3-gd php7.3-bcmath \
-    php7.3-mysql php7.3-sqlite3 php7.3-imap php7.3-mbstring \       
-    php7.3-json php7.3-curl php7.3-gd php7.3-gmp php7.3-zip php-redis php7.2-xml \
-    php-yaml php7.3-xml php-mongodb imagemagick php-imagick php7.3-xdebug \ 
+    php7.4-dev php7.4-fpm php7.4-cli php7.4-gd php7.4-bcmath \
+    php7.4-mysql php7.4-imap php7.4-mbstring \       
+    php7.4-json php7.4-curl php7.4-gd php7.4-gmp php7.4-zip php-redis php7.2-xml \
+    php-yaml php7.4-xml php-mongodb imagemagick php-imagick \ 
     && mkdir /run/php
 
 # Composer

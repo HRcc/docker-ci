@@ -24,10 +24,10 @@ command:
     timeout: 1000
 
   php -v:
-    title: Checking that PHP 7.3 is installed
+    title: Checking that PHP 7.4 is installed
     exit-status: 0
     stdout:
-      - /PHP 7.3/
+      - /PHP 7.4/
     stderr: []
     timeout: 1000
 

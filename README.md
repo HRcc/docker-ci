@@ -2,7 +2,7 @@
 
 ## Contains:
 * Ubuntu 18.04 as a base image
-* PHP 7.3
+* PHP 7.4
 * Composer
 * MySQL
 * Node.js 12
