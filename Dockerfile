@@ -32,7 +32,7 @@ RUN add-apt-repository -y ppa:ondrej/php && apt-get update \
     php7.4-dev php7.4-fpm php7.4-cli php7.4-gd php7.4-bcmath \
     php7.4-mysql php7.4-imap php7.4-mbstring \       
     php7.4-json php7.4-curl php7.4-gd php7.4-gmp php7.4-zip php-redis php7.2-xml \
-    php-yaml php7.4-xml php-mongodb imagemagick php-imagick \ 
+    php-yaml php7.4-xml php-mongodb imagemagick php-imagick php7.4-xdebug \ 
     && mkdir /run/php
 
 # Composer

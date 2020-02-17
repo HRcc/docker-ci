@@ -1,23 +1,23 @@
 IMAGE               CREATED                  CREATED BY                                      SIZE                COMMENT
-ebb471fa255b        Less than a second ago   /bin/sh -c apt-get remove -y --purge apt-uti…   2.77MB              
-5530d5e8880d        4 seconds ago            /bin/sh -c curl -fsSL https://goss.rocks/ins…   10.5MB              
-e99b2bfc6bc0        10 seconds ago           /bin/sh -c apt-get update && apt-get install…   236MB               
-4786c2432293        36 seconds ago           /bin/sh -c sh -c 'echo "deb [arch=amd64] htt…   68B                 
-0929edad9527        37 seconds ago           /bin/sh -c wget -q -O - https://dl-ssl.googl…   14.6kB              
-ddc4325706bc        38 seconds ago           /bin/sh -c cd tmp && tar xvfz lokalise*.tgz …   8.8MB               
-8b91755b01b6        39 seconds ago           /bin/sh -c #(nop) ADD 8385535d664539a0eb9549…   3.06MB              
-f26eaf2f417d        40 seconds ago           /bin/sh -c chmod +x /usr/local/bin/circleci     4.69kB              
-2f1f15fbdbf8        41 seconds ago           /bin/sh -c #(nop) ADD cab7bc5052b072b5051952…   4.69kB              
-8834000282ea        42 seconds ago           /bin/sh -c #(nop) COPY file:34147f2a7a1a3995…   19.9MB              
-308e69201659        43 seconds ago           /bin/sh -c chmod +x /usr/local/bin/cloud_sql…   14.5MB              
-f0546fc4dadb        44 seconds ago           /bin/sh -c #(nop) ADD 84d475b3b1e0568bcddf76…   14.5MB              
-0b94d5c1632f        47 seconds ago           /bin/sh -c export CLOUD_SDK_REPO="cloud-sdk-…   169MB               
-e80255dafe98        About a minute ago       /bin/sh -c apt-get update &&     apt-get ins…   198MB               
-c04f327eefaa        About a minute ago       /bin/sh -c #(nop)  ENV DBUS_SESSION_BUS_ADDR…   0B                  
-0f30c71f3cb8        About a minute ago       /bin/sh -c curl --silent --location https://…   94.9MB              
-fad9c698a163        2 minutes ago            /bin/sh -c apt-get update && apt-get install…   64.2MB              
-ef86f660ff5b        2 minutes ago            /bin/sh -c php -r "readfile('http://getcompo…   1.94MB              
-08d66a80727b        2 minutes ago            /bin/sh -c add-apt-repository -y ppa:ondrej/…   327MB               
+4bf6ebf99d0a        Less than a second ago   /bin/sh -c apt-get remove -y --purge apt-uti…   2.78MB              
+7701bbb23d0b        4 seconds ago            /bin/sh -c curl -fsSL https://goss.rocks/ins…   10.5MB              
+1e86d7e07c99        9 seconds ago            /bin/sh -c apt-get update && apt-get install…   236MB               
+10716c226757        36 seconds ago           /bin/sh -c sh -c 'echo "deb [arch=amd64] htt…   68B                 
+428f9d05fcab        37 seconds ago           /bin/sh -c wget -q -O - https://dl-ssl.googl…   14.6kB              
+f2bd8f91288e        38 seconds ago           /bin/sh -c cd tmp && tar xvfz lokalise*.tgz …   8.8MB               
+50e063b741a8        39 seconds ago           /bin/sh -c #(nop) ADD 8385535d664539a0eb9549…   3.06MB              
+553e78e5564c        40 seconds ago           /bin/sh -c chmod +x /usr/local/bin/circleci     4.69kB              
+e076496f097d        40 seconds ago           /bin/sh -c #(nop) ADD cab7bc5052b072b5051952…   4.69kB              
+1b927c265a57        41 seconds ago           /bin/sh -c #(nop) COPY file:34147f2a7a1a3995…   19.9MB              
+143b97c085c1        42 seconds ago           /bin/sh -c chmod +x /usr/local/bin/cloud_sql…   14.5MB              
+cb58225e5ee9        43 seconds ago           /bin/sh -c #(nop) ADD 84d475b3b1e0568bcddf76…   14.5MB              
+f68f58a21177        46 seconds ago           /bin/sh -c export CLOUD_SDK_REPO="cloud-sdk-…   169MB               
+e0b558cbd8cd        About a minute ago       /bin/sh -c apt-get update &&     apt-get ins…   198MB               
+d575a35d5ef7        About a minute ago       /bin/sh -c #(nop)  ENV DBUS_SESSION_BUS_ADDR…   0B                  
+c174755ccd23        About a minute ago       /bin/sh -c curl --silent --location https://…   94.9MB              
+22aab6e5f151        2 minutes ago            /bin/sh -c apt-get update && apt-get install…   64.2MB              
+e222f9b8f4c3        2 minutes ago            /bin/sh -c php -r "readfile('http://getcompo…   1.94MB              
+08b8483514b5        2 minutes ago            /bin/sh -c add-apt-repository -y ppa:ondrej/…   338MB               
 635ad6e8b918        3 months ago             /bin/sh -c wget https://github.com/jwilder/d…   8.53MB              
 631a59dfd84b        3 months ago             /bin/sh -c apt-get update     && apt-get ins…   207MB               
 3203817350ef        3 months ago             /bin/sh -c #(nop)  ENV CLOUD_SDK_VERSION=200…   0B                  
