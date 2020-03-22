@@ -35,6 +35,9 @@ RUN add-apt-repository -y ppa:ondrej/php && apt-get update \
     php-yaml php7.4-xml php-mongodb imagemagick php-imagick php7.4-xdebug \ 
     && mkdir /run/php
 
+# Java
+RUN apt-get install -y default-jdk
+
 # Composer
 RUN php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer
 

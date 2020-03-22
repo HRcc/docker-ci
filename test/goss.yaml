@@ -54,3 +54,11 @@ command:
       - /v0.6.1/
     stderr: []
     timeout: 1000
+
+  javac -version:
+    title: Checking that Java is installed
+    exit-status: 0
+    stdout:
+      - /javac/
+    stderr: []
+    timeout: 1000
